@@ -10,4 +10,10 @@ public class Test {
 		test1.print();
 	}
 
+	public int OutMethod(int i)
+	{
+		System.out.println("out method");
+		System.out.println("Integer: "+i);
+		return i*10;
+	}
 }
